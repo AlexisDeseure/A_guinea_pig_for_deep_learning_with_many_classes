@@ -1,0 +1,8 @@
+image/
+data/ILSVRC2012_devkit_t3.tar.gz
+data/ILSVRC2012_img_test_v10102019.tar
+data/ILSVRC2012_img_train.tar
+data/ILSVRC2012_img_train_t3.tar
+data/imagenet_class_index.json
+data/tiny-imagenet-200
+data/ImageNet_2012
