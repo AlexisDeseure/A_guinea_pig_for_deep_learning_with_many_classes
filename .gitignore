@@ -7,3 +7,4 @@ data/imagenet_class_index.json
 data/tiny-imagenet-200
 data/ImageNet_2012
 data/saved_outputs/penultimate_layer_outputs_all.pt
+data/saved_outputs/archive
