@@ -1,2 +1,2 @@
 data/saved_outputs/*.pt filter=lfs diff=lfs merge=lfs -text
-data/saved_outputs/penultimate_layer_outputs/*.pt filter=lfs diff=lfs merge=lfs -text
+
