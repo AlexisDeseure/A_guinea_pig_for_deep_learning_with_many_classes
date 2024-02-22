@@ -163,13 +163,15 @@ H(o, \hat{o}) = - \sum_{x = 1}^{L} o^{(x)} \log \hat{o}^{(x)}
 $$
 avec $o^{(x)}$ et $\hat{o}^{(x)}$ les valeurs d'indice $x$ des vecteurs $o$ et $\hat{o}$ respectivement.\\
 
-Ensuite, afin de limiter le surapprentissage mais également dans le cadre de notre projet, nous rajoutons un weight decay à cette fonction de pertes afin d'obtenir la fonction complète qui sera minimisée : 
+Ensuite, afin de limiter le surapprentissage mais également dans le cadre de notre projet, nous rajoutons un weight decay à cette fonction de pertes afin d'obtenir la fonction complète $L$ qui sera minimisée : 
 $$
 L(o, \hat{o}) = H(o, \hat{o}) + \frac{\lambda }{2}\sum_l\sum_k (w^k_l)^2
 $$
+
+avec $\lambda \in \left[0,1\right]$ et $\forall k,l \in \mathbb{N}, w^k_l \in \mathbb{R}$ la valeur d'un poids $k$ sur la couche $l$ du réseau. Dans notre modèle de régression logistique, $l \in \{0\}$ car il y a une unique couche. 
 \section{Génération de différentes époques d'un modèle}
 
-Ne disposant pas de modèle (très couteux à entrainer), nous avons décider de prendre le resnet50 qui est un modèle performant pour la classification. Pour avoir différentes époques de ce modèle, nous l'avons d'abord récupérer grâce à la deuxième méthode. En mettant en entrée la sortie du resnet50 à un modèle linéaire à une couche, nous simulons différentes époques du modèle resnet50. Pour finir, nous enregistrons les différentes époques du modèle (poids + biais) pour différents weight decay dans un fichier.
+Ne disposant pas de modèle (très couteux à entrainer), nous avons décider de prendre le resnet50 qui est un modèle performant pour la classification. Pour avoir différentes époques de ce modèle, nous l'avons d'abord récupéré grâce à la deuxième méthode. En mettant en entrée la sortie du resnet50 à un modèle linéaire à une couche, nous simulons différentes époques du modèle resnet50. Pour finir, nous enregistrons les différentes époques du modèle (poids + biais) pour différents weight decay dans un fichier.
 
 \section{Calcul des différents paramêtres de notre modèle}
 
