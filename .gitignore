@@ -1,3 +1,6 @@
+.venv
 data/ImageNet_2012
 data/saved_outputs
-.venv
+data/saved_results/*/models
+notebooks/.ipynb_checkpoints
+
