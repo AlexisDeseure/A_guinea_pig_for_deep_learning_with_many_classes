@@ -3,4 +3,4 @@ data/ImageNet_2012
 data/saved_outputs
 data/saved_results/*/models
 notebooks/.ipynb_checkpoints
-
+data/saved_results/*/*/last_outputs.pt
