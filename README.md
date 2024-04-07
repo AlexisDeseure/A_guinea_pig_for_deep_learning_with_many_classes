@@ -4,7 +4,7 @@
 
 ## About the project
 
-This project aims to train and analyze a classification model with Pytorch (ResNet50 on ImageNet) to evaluate the impact of regularization on the detection performance of 1000 classes and find the best hyper-parameter values for the global optimization problem, for each class and the loss assiociated with the use of the global optimizer.
+This project aims to train and analyze a classification model with Pytorch (ResNet50 on ImageNet) to evaluate the impact of regularization on the detection performance of 1000 classes and find the best hyper-parameter values for the global optimization problem, for each class and the loss associated with the use of the global optimizer (for more information check the [associated documents](./documents)).
 
 ## Table of Contents
 - [Getting Started](#getting-started)
