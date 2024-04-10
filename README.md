@@ -9,7 +9,7 @@ This project aims to train and analyze a classification model with Pytorch (ResN
 ## Table of Contents
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Notebook](#notebook)
+  - [Notebooks](#notebooks)
   - [Data](#data)
 
 ## Getting Started
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 Download the dataset from [here](https://1drv.ms/f/s!AvJo9EQgp1WUrewD1KfSCLp8OVZGmA) and replace the data folder with the downloaded data. It contains all the data needed to run the [second notebook](./notebooks/multinomial_logistic_regression_training_multiple_weight_decay.ipynb). To download the ImageNet dataset, you need to register on the [ImageNet website](https://www.image-net.org/challenges/LSVRC/2012/index.php) and request access to the dataset. Then put the ImageNet archive in ./data./ImageNet_2012 folder. You don't need to extract the archive, the code will do it for you. 
 
-### Notebook
+### Notebooks
 Simply launch the notebooks on jupyter!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
