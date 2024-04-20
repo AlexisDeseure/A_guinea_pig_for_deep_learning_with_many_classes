@@ -9,8 +9,9 @@ This project aims to train and analyze a classification model with Pytorch (ResN
 ## Table of Contents
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Notebooks](#notebooks)
   - [Data](#data)
+  - [Notebooks](#notebooks)
+  
 
 ## Getting Started
 ### Prerequisites
