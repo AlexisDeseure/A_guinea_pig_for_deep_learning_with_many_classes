@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# A guinea pig for deep learning with many classes
+# Logistic regression: A guinea pig for deep learning with many classes
 
 ## About the project
 
